@@ -3,11 +3,10 @@ import { FormsModule } from '@angular/forms';
 import { InvestmentService } from '../investment.service';
 
 @Component({
-  selector: 'app-user-input',
-  standalone: true,
-  imports: [FormsModule],
-  templateUrl: './user-input.component.html',
-  styleUrl: './user-input.component.scss',
+    selector: 'app-user-input',
+    imports: [FormsModule],
+    templateUrl: './user-input.component.html',
+    styleUrl: './user-input.component.scss'
 })
 export class UserInputComponent {
   private investmentService = inject(InvestmentService);

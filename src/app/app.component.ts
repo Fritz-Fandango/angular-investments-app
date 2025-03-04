@@ -4,10 +4,9 @@ import { InvestmentResultsComponent } from './investment-results/investment-resu
 import { UserInputComponent } from './user-input/user-input.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [HeaderComponent, UserInputComponent, InvestmentResultsComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+    selector: 'app-root',
+    imports: [HeaderComponent, UserInputComponent, InvestmentResultsComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {}
